@@ -1,0 +1,45 @@
+.newsletter-bx {
+    padding: 20px;
+  }
+  
+  .new-email-bx {
+    display: flex; /* Use Flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Space out the items */
+  }
+  
+  .new-email-bx input {
+    flex: 1 1 70%; /* Allow the input to take up 70% of the space */
+    max-width: 70%; /* Limit maximum width */
+    padding: 10px; /* Add some padding */
+    margin-right: 10px; /* Space between input and button */
+    
+  }
+  
+  .new-email-bx button {
+    flex: 1 1 25%; /* Allow the button to take up 25% of the space */
+    padding: 10px; /* Add some padding */
+   
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .new-email-bx button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .new-email-bx {
+      flex-direction: column; /* Stack input and button on small screens */
+    }
+    
+    .new-email-bx input,
+    .new-email-bx button {
+      max-width: 100%; /* Full width for small screens */
+      margin-right: 0; /* Remove margin */
+      margin-bottom: 10px; /* Add space between input and button */
+    }
+  }
+  

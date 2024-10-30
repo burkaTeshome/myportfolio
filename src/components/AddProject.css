@@ -1,0 +1,94 @@
+.add-project {
+    padding: 20px;
+  }
+  
+  .add-project h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-project .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .modal-custom .modal-content {
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .modal-custom .modal-header {
+    border-bottom: none; /* Remove border */
+  }
+  
+  .image-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for image */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Shadow for image */
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  .add-project {
+    padding: 20px;
+  }
+  
+  .add-project h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-project .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .modal-custom .modal-content {
+    background-color: #ffffff; /* Change to a white background for visibility */
+    color: #000; /* Set text color to black */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .modal-custom .modal-header {
+    border-bottom: none; /* Remove border */
+  }
+  
+  .image-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for image */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Shadow for image */
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center; /* Center text in the table */
+  }
+  
+  .table .btn-group {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+  }
+  
+  .table .btn {
+    margin: 0 5px; /* Add some horizontal spacing between buttons */
+  }
+  
